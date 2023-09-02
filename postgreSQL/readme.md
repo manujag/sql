@@ -1,4 +1,4 @@
-# CROSSTAB sample query
+# CROSSTAB sample query [FileLink](https://github.com/manujag/sql/blob/master/postgreSQL/cross_tab.sql).
 ```
 SELECT * FROM sellers_item_qty;
 ```
