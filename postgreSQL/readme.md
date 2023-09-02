@@ -1,5 +1,5 @@
 ```
-**SELECT * FROM sellers_item_qty;**
+SELECT * FROM sellers_item_qty;
 ```
 
 The table looks like below:
