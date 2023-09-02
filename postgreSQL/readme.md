@@ -2,7 +2,7 @@
 SELECT * FROM sellers_item_qty;
 ```
 
-The table looks like below:
+The table looks something like below:
 |sellersid|itemcode|qty|
 |---------|--------|---|
 |0A       |A2      |75 |
@@ -17,3 +17,25 @@ The table looks like below:
 |0D       |A3      |45 |
 |0D       |A6      |84 |
 |0D       |B8      |80 |
+
+After this we use the crosstab to get below:
+
+|seller_id|a1_total|a2_total|a3_total|a4_total|a5_total|
+|---------|--------|--------|--------|--------|--------|
+|0A       |        |78      |        |        |98      |
+|0B       |        |        |        |        |        |
+|0C       |        |        |22      |        |        |
+|0D       |        |        |45      |        |        |
+|0E       |        |125     |        |        |        |
+|0F       |70      |42      |        |87      |        |
+|0G       |        |22      |        |        |        |
+|0H       |        |        |19      |        |13      |
+|0I       |38      |        |        |91      |        |
+|0J       |        |        |        |        |        |
+|0K       |        |        |        |        |        |
+|0L       |        |        |        |65      |        |
+|0M       |        |        |        |        |        |
+|0N       |15      |        |        |        |        |
+|0O       |        |        |        |        |        |
+
+The results might differ based on data.
