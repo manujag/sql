@@ -40,4 +40,4 @@ After this we use the crosstab to get below:
 |0O       |        |        |        |        |        |
 
 The results might differ based on data.
-For full code: [check here]([https://pages.github.com/](https://github.com/manujag/sql/blob/master/postgreSQL/cross_tab.sql)https://github.com/manujag/sql/blob/master/postgreSQL/cross_tab.sql)
+For full code: [check here](https://github.com/manujag/sql/blob/master/postgreSQL/cross_tab.sql).
